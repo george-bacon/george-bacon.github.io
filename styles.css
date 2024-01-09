@@ -86,10 +86,6 @@ body {
   border: 3px solid var(--palette3);
 }
 
-#author:hover {
-  cursor: pointer;
-}
-
 #introduction {
   /* color: var(--palette1); */
   display: flex;
@@ -135,7 +131,8 @@ body {
   padding-top: 25px;
   display: flex;
   justify-content: right;
-  /* border: 1px solid white; */
+  overflow: hidden;
+  position: relative;
 }
 
 #welcome-section h1 {
